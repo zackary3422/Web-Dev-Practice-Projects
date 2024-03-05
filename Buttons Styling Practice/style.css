@@ -1,0 +1,214 @@
+
+
+.subscribe-button{
+
+    background-color: rgb(194, 26, 0);
+    color: white;
+
+    font-size: 15px;
+
+    border: none;
+    border-radius: 3px;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+
+    margin-right: 10px;
+
+    transition:  opacity 150ms;
+
+    vertical-align: top;
+
+    cursor: pointer;
+}
+
+.subscribe-button:hover{
+
+    opacity: 0.85;
+
+    transition: opacity 150ms;
+}
+
+.subscribe-button:active{
+
+    opacity: 0.7;
+}
+
+.join-button{
+
+    color: rgb(0, 110, 255);
+    border-color: rgb(0, 110, 255);
+    background-color: white;
+
+    border-width: 1px;
+    border-radius: 3px;
+  
+    border-style: solid;
+
+    vertical-align: top;
+
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-right: 19px;
+    padding-left: 19px;
+    
+    margin-right: 10px;
+
+    font-size: 19px;
+
+    cursor: pointer;
+
+    transition: background-color, color 150ms;
+}
+
+.join-button:hover{
+
+    background-color: rgb(0, 110, 255);
+
+    color: white;
+
+    transition: opacity 150ms;
+}
+
+.join-button:active{
+
+    opacity: 0.7;
+}
+
+.tweet-button{
+
+    color:white;
+    background-color: rgb(4, 163, 255);
+
+    border: none;
+    border-radius: 29px;
+
+    vertical-align: top;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+
+    font-size: 18px;
+    font-weight: bold;
+
+    transition: box-shadow 150ms;
+
+    cursor: pointer;
+
+    margin-right: 10px;
+}
+
+.tweet-button:hover{
+
+
+  /*Arguments  1) Horizontal position 2) Vertical position 3) Blur 4) Color */
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.18);
+
+  transition: box-shadow, opacity 150ms;
+}
+
+.tweet-button:active{
+
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.30);
+  opacity: 0.95;
+}
+
+.amazon-button{
+
+  background-color: rgb(252, 218, 25);
+  
+  border: none;
+  border-radius: 20px;
+
+  vertical-align: top;
+
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 30px;
+  padding-left: 30px;
+
+  font-size: 15px;
+  font-weight: bold;
+
+  cursor: pointer;
+
+  margin-right: 10px;
+  margin-top: 5px;
+
+  transition: background-color 150ms
+}
+
+.amazon-button:hover{
+
+  background-color: rgb(255, 191, 0);
+}
+
+.uber-button{
+
+  border: none;
+
+  background-color: black;
+  color: white;
+
+  vertical-align: top;
+
+  border-radius: 1px;
+
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 20px;
+  padding-left: 20px;
+
+  font-weight: bold;
+
+  margin-right: 10px;
+  margin-top: 5px;
+
+  cursor: pointer;
+
+  transition: opacity 150ms;
+}
+
+.uber-button:hover{
+
+  opacity: 0.90;
+}
+
+.linkedin-button{
+
+  border-style: solid;
+
+  color: rgb(0, 99, 198);
+  background-color: white;
+  border-color: rgb(0, 99, 198);
+
+  vertical-align: top;
+
+  border-radius: 20px;
+  border-width: 1.5px;
+
+  margin-top: 5px;
+
+  padding-top: 8.5px;
+  padding-bottom: 8.5px;
+  padding-right: 25px;
+  padding-left: 25px;
+
+  font-weight: bold;
+  font-size: 17px;
+
+  cursor: pointer;
+
+  transition: background-color, border-width, 150ms;
+}
+
+.linkedin-button:hover{
+
+  background-color: rgba(112, 176, 255, 0.10);
+
+  border-width: 2.5px
+}
