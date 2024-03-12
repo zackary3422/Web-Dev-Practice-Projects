@@ -1,0 +1,183 @@
+
+.div{
+    display: flex;
+    align-items: center;
+}
+
+.back-button{
+    
+    align-items: center;
+
+    
+}
+
+.numbers{
+
+    align-items: center;
+
+}
+
+.next-button{
+
+    align-items: center;
+
+}
+
+
+.stretch-button{
+    cursor: pointer;
+
+    color: white;
+    background-color: rgb(0,150,0);
+
+    border: none;
+
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-right: 12px;
+    padding-left: 12px; 
+
+    margin-right: 15px;
+
+    transition: 350ms;
+}
+
+.stretch-button:hover{
+
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 24px;
+    padding-left: 24px; 
+
+}
+
+.shadow-button{
+    border:none;
+
+    cursor: pointer;
+
+    background-color: rgb(0,150,0);
+    color: white;
+
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-right: 12px;
+    padding-left: 12px; 
+
+    box-shadow: 3px 3px 7px rgba(0,0,0, 0.4)    
+
+}
+
+.shadow-button:active{
+
+    border: solid;
+    border-color: rgba(0,0,0,0);
+
+    padding-top: 3px;
+    padding-bottom: 4px;
+    padding-right: 12px;
+    padding-left: 11px; 
+    
+    box-shadow: 0px 0px 0px rgba(0,0,0, 0.4);
+    border-left-width: 2px;
+    border-left-color: rgba(255,255,255,0);
+    border-top-width: 2px;
+    border-top-color: rgba(255,255,255,0);
+}
+
+.div-buttons{
+    margin-bottom: 15px;
+}
+
+.num-button1{
+
+    background-color: rgb(0,150,0);
+    color: white;
+
+    border:none;
+
+    padding-top: 3px;
+    padding-bottom: 4px;
+    padding-right: 12px;
+    padding-left: 11px; 
+
+    margin-left: 10px;
+    margin-right: 12px;
+
+    cursor: pointer;
+
+    transition: 150ms;
+}
+
+
+.num-button1:hover{
+
+    margin-right: 6px;
+    margin-left: 6px;
+
+    padding-right: 18px;
+    padding-left: 16px; 
+
+}
+
+.num-button2{
+
+    background-color: rgb(0,150,0);
+    color: white;
+
+    border:none;
+
+    padding-top: 3px;
+    padding-bottom: 4px;
+    padding-right: 12px;
+    padding-left: 11px; 
+
+    margin-left: 10px;
+    margin-right: 12px;
+
+    cursor: pointer;
+
+    transition: 150ms;
+}
+
+
+.num-button2:hover{
+
+    margin-right: 6px;
+    margin-left: 6px;
+
+    padding-right: 18px;
+    padding-left: 16px; 
+
+}
+
+.num-button3{
+
+    background-color: rgb(0,150,0);
+    color: white;
+
+    border:none;
+
+    padding-top: 3px;
+    padding-bottom: 4px;
+    padding-right: 12px;
+    padding-left: 11px; 
+
+    margin-left: 10px;
+    margin-right: 12px;
+
+    cursor: pointer;
+
+    transition: 150ms;
+}
+
+
+.num-button3:hover{
+
+    margin-right: 6px;
+    margin-left: 6px;
+
+    padding-right: 18px;
+    padding-left: 16px; 
+
+}
